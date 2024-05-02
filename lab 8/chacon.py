@@ -7,7 +7,6 @@ with open('/workspace/json-practice/data/schacon.repos.json', 'r') as file:
     
 
 for d in data[0:5]:
-   #sample = (d['name'], d['html_url'],d['updated_at'], d['visibility'])
    name1 = (d['name'])
    html1 = (d['html_url'])
    updated1 = (d['updated_at'])
