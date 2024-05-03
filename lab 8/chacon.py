@@ -12,8 +12,9 @@ for d in data[0:5]:
    updated1 = (d['updated_at'])
    visi1 = (d['visibility'])
    records1 = (name1 + ", " + html1 + ", " + updated1 + ", " + visi1+ " \n")
-   file1 = open('/workspace/json-practice/lab 8/chacon.csv', 'a')
-   file1.write(records1)
+   records2 = open('/workspace/json-practice/lab 8/chacon.csv', 'a')
+   records2.write(records1)
+   records2.close()
     
 
 
